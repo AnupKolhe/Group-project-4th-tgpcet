@@ -1,0 +1,23 @@
+package fileopener;
+import java.io.*;
+public class readingfile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\91913\\Desktop\\sampledataset.txt"));
+			// Location is use select the File
+			String s;
+			
+			while((s= br.readLine())!=null) {
+				System.out.println(s);
+			}
+			br.close();
+		}
+		catch(Exception ex) {
+			
+		}
+	}
+
+}
