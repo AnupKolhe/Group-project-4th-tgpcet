@@ -1,0 +1,2 @@
+The file Reader Code
+Return the number of character persent in them
